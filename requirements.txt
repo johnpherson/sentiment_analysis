@@ -9,4 +9,5 @@ streamlit==1.30.0
 pandas==2.1.4
 plotly==5.18.0
 textblob==0.17.1
-wordcloud==1.9.3 
+wordcloud==1.9.3
+alpha_vantage 

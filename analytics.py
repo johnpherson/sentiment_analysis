@@ -43,8 +43,8 @@ def calculate_sentiment_price_correlation(sentiment_df, price_df):
     
     daily_returns = price_df['Close'].pct_change()
     
-    # Align the dates
-    common_dates = set(daily_sentiment.index) & set(daily_returns.index)
+    # Align the dates and convert to sorted list
+    common_dates = sorted(list(set(daily_sentiment.index) & set(daily_returns.index)))
     sentiment = daily_sentiment[common_dates]
     returns = daily_returns[common_dates]
     
