@@ -36,4 +36,4 @@ streamlit run app.py
 - PRAW (Python Reddit API Wrapper)
 - yfinance for stock data
 - Streamlit for web interface
-- Plotly for interactive visualizations 
+- Plotly for interactive visualizations # sentiment_analysis
